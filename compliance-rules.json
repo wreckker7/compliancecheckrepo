@@ -1,0 +1,22 @@
+{
+  "version": "1.3.0",
+  "lastUpdated": "2025-08-28T13:49:00Z",
+  "organization": "YourCompany",
+  "description": "Organizational compliance rules for code quality, security, and standards",
+  "rules": [
+    {
+      "name": "rule-identifier",
+      "description": "Human-readable description",
+      "pattern": "regex-pattern-optional",
+      "severity": "critical|error|warning|info",
+      "category": "security|code-quality|performance|naming|documentation",
+      "language": ["python", "javascript", "typescript"],
+      "enabled": true,
+      "examples": {
+        "violation": "example of bad code",
+        "fix": "example of correct code"
+      },
+      "documentation": "URL or detailed explanation"
+    }
+  ]
+}
